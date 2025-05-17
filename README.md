@@ -1,41 +1,52 @@
-# AI System Prompts Collection
+# 🧠 LLM System Prompts Repository
 
-This repository contains the **system prompts** of leading LLMs (Large Language Models) for reference, analysis, or experimentation purposes. These prompts represent how each system defines its behavior, capabilities, and tools.
+This repository contains the **full system prompts** of four major large language models (LLMs):
 
-## 📁 Contents
+- `ChatGPT System Prompt.txt`
+- `Claude System Prompt.txt`
+- `Perplexity System Prompt.txt`
+- `Gemini System Prompt.txt`
 
-- `ChatGPT System Prompt.txt`  
-  Contains the full system prompt used by OpenAI's ChatGPT (as of 2025-05-17). It includes detailed information about tools, capabilities (e.g., image input), tone, and function namespaces.
-
-- `Claude System Prompt.txt`  
-  The internal behavior definition for Anthropic's Claude model. Includes principles like helpfulness, harmlessness, and honesty, as well as task execution strategies if applicable.
-
-- `Perplexity System Prompt.txt`  
-  The prompt used by Perplexity AI's conversational agent. Typically optimized for accurate retrieval and citation of web-based knowledge.
-
-- `Gemini System Prompt.txt`  
-  The foundational system prompt of Google's Gemini model. Describes its multi-modal capabilities and integrations with Google ecosystem services.
+Each file includes the system-level instructions that guide the model’s behavior, capabilities, and interaction design. These prompts offer insight into how each company defines the scope, personality, and control structure of their AI.
 
 ---
 
-## 📌 Purpose
+## 📂 Files
 
-These prompts are useful for:
-
-- Prompt engineers and AI researchers studying model behavior.
-- Developers interested in building wrapper applications or comparison tools.
-- Educators or analysts exploring differences between LLM philosophies and UX strategies.
-
----
-
-## 📎 Notes
-
-- All prompts were collected for **educational and non-commercial** purposes.
-- Please refer to the individual vendors for licensing terms, usage conditions, and copyright.
+| File                          | Description                                                  |
+|-------------------------------|--------------------------------------------------------------|
+| `ChatGPT System Prompt.txt`   | Prompt used by OpenAI’s ChatGPT, including tool instructions |
+| `Claude System Prompt.txt`    | System definition used by Anthropic’s Claude                |
+| `Perplexity System Prompt.txt`| Behavior prompt behind Perplexity AI’s conversational agent  |
+| `Gemini System Prompt.txt`    | Google’s Gemini model behavior configuration prompt          |
 
 ---
 
-## ✨ Example Entry
+## 🎯 Purpose of This Repository
 
-Here is a short excerpt from the ChatGPT prompt (full text in the file):
+This repository is created and maintained solely for:
+
+- 📚 **Educational purposes** – To understand how LLMs are instructed to behave internally.
+- 🔬 **Non-commercial research** – For researchers and developers to compare system prompt design patterns.
+- 🧪 **Critical analysis and commentary** – For prompt engineers and AI practitioners studying model alignment.
+
+---
+
+## ⚠️ Legal Disclaimer
+
+All system prompts are shared under the following assumptions:
+
+- They are intended for **educational, research, and commentary** purposes only.
+- This repository is **non-commercial** and is not affiliated with or endorsed by OpenAI, Anthropic, Perplexity, or Google.
+- Contents may include material obtained from publicly visible outputs, documentation, or user interfaces.
+
+This falls under the concept of **"fair use"**, particularly in the context of:
+
+- Education  
+- Non-commercial research  
+- Commentary and analysis
+
+If you are the copyright holder of any included content and would like us to update or remove material, please submit an issue or contact the repository maintainers.
+
+---
 
